@@ -10,7 +10,7 @@ import torch
 from torch.utils.cpp_extension import (BuildExtension, CppExtension,
                                        CUDAExtension)
 
-version_file = 'basicsr/version.py'
+version_file = 'handyfigure/version.py'
 
 
 def readme():
@@ -50,7 +50,7 @@ def get_hash():
         sha = get_git_hash()[:7]
     elif os.path.exists(version_file):
         try:
-            from basicsr.version import __version__
+            from handyfigure.version import __version__
             sha = __version__.split('+')[-1]
         except ImportError:
             raise ImportError('Unable to get git version')
@@ -124,40 +124,19 @@ if __name__ == '__main__':
         ext_modules = []
         sys.argv.remove('--no_cuda_ext')
     else:
-        ext_modules = [
-            make_cuda_ext(
-                name='deform_conv_ext',
-                module='basicsr.models.ops.dcn',
-                sources=['src/deform_conv_ext.cpp'],
-                sources_cuda=[
-                    'src/deform_conv_cuda.cpp',
-                    'src/deform_conv_cuda_kernel.cu'
-                ]),
-            make_cuda_ext(
-                name='fused_act_ext',
-                module='basicsr.models.ops.fused_act',
-                sources=['src/fused_bias_act.cpp'],
-                sources_cuda=['src/fused_bias_act_kernel.cu']),
-            make_cuda_ext(
-                name='upfirdn2d_ext',
-                module='basicsr.models.ops.upfirdn2d',
-                sources=['src/upfirdn2d.cpp'],
-                sources_cuda=['src/upfirdn2d_kernel.cu']),
-        ]
+        ext_modules = []
 
     write_version_py()
     setup(
-        name='basicsr',
+        name='handyfigure',
         version=get_version(),
-        description='Open Source Image and Video Super-Resolution Toolbox',
+        description='HandyFigure',
         long_description=readme(),
         author='Xintao Wang',
         author_email='xintao.wang@outlook.com',
-        keywords='computer vision, restoration, super resolution',
-        url='https://github.com/xinntao/BasicSR',
-        packages=find_packages(
-            exclude=('options', 'datasets', 'experiments', 'results',
-                     'tb_logger', 'wandb')),
+        keywords='computer vision',
+        url='https://github.com/xinntao/HandyFigure',
+        packages=find_packages(exclude=('results')),
         classifiers=[
             'Development Status :: 4 - Beta',
             'License :: OSI Approved :: Apache Software License',
@@ -166,7 +145,7 @@ if __name__ == '__main__':
             'Programming Language :: Python :: 3.7',
             'Programming Language :: Python :: 3.8',
         ],
-        license='Apache License 2.0',
+        license='MIT',
         setup_requires=['cython', 'numpy'],
         install_requires=get_requirements(),
         ext_modules=ext_modules,
