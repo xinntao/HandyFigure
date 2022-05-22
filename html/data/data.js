@@ -76,6 +76,13 @@ var data = [
     "url_src": "https://github.com/xinntao/HandyFigure/releases/download/PPT-source/FAIG_compare.pptx",
     "url_project": "https://github.com/TencentARC/FAIG",
 },
+{
+    "title": "Colorization",
+    "url_img": "https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/Colorization.png",
+    "url_paper": "https://arxiv.org/abs/2108.08826",
+    "url_src": "https://github.com/xinntao/HandyFigure/releases/download/PPT-source/Colorization.pptx",
+    "url_project": "#",
+},
 ];
 // repeat data for testing (uncomment the following line when depolying)
 //while (data.length < 100) data = data.concat(data);

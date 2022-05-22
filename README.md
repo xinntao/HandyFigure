@@ -49,6 +49,7 @@ HandyFigure 提供论文插图的源文件(通常是 PPT 源文件)
 | ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/FAIG_teaser.jpg) | FAIG-teaser | <https://github.com/xinntao/HandyFigure/releases/download/PPT-source/FAIG_teaser.pptx> | [Paper](https://openreview.net/pdf?id=az0BBDjDvwD)|
 | ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/FAIG_motivation.png) | FAIG-motivation | <https://github.com/xinntao/HandyFigure/releases/download/PPT-source/FAIG_motivation.pptx> | [Paper](https://openreview.net/pdf?id=az0BBDjDvwD)|
 | ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/FAIG_compare.jpg) | FAIG-compare | <https://github.com/xinntao/HandyFigure/releases/download/PPT-source/FAIG_compare.pptx> | [Paper](https://openreview.net/pdf?id=az0BBDjDvwD)|
+| ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/Colorization.png) | Colorization | <https://github.com/xinntao/HandyFigure/releases/download/PPT-source/Colorization.pptx> | [Paper](https://arxiv.org/abs/2108.08826)|
 <!-- TBR -->
 
 ## :scroll: License and Acknowledgement
