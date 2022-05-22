@@ -5,19 +5,19 @@ with open('figures/database.yml', mode='r') as f:
 
 # generate .js file for html
 file_js = open('html/data/data.js', mode='w')
-file_js.write('var data = [ \n')
+file_js.write('var data = [\n')
 for entry in data:
     title = entry['title']
     url_img = entry['url_img']
     url_paper = '#' if entry['url_paper'] is None else entry['url_paper']
     url_src = entry['url_src']
     url_project = '#' if entry['url_project'] is None else entry['url_project']
-    data_string = '{\n' \
-        f'    "title": "{title}",\n '\
-        f'    "url_img": "{url_img}",\n '\
-        f'    "url_paper": "{url_paper}",\n '\
-        f'    "url_src": "{url_src}",\n '\
-        f'    "url_project": "{url_project}",\n '\
+    data_string = '{\n'\
+        f'    "title": "{title}",\n'\
+        f'    "url_img": "{url_img}",\n'\
+        f'    "url_paper": "{url_paper}",\n'\
+        f'    "url_src": "{url_src}",\n'\
+        f'    "url_project": "{url_project}",\n'\
         '},\n'
     file_js.write(data_string)
 

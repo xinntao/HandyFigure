@@ -47,6 +47,8 @@ HandyFigure 提供论文插图的源文件(通常是 PPT 源文件)
 | ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/RealESRGAN_network.jpg) | RealESRGAN-network | <https://github.com/xinntao/HandyFigure/releases/download/PPT-source/RealESRGAN_network.pptx> | [Paper](https://arxiv.org/abs/2107.10833)|
 | ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/RealESRGAN_blur.jpg) | RealESRGAN-blur | <https://github.com/xinntao/HandyFigure/releases/download/PPT-source/RealESRGAN_blur.pptx> | [Paper](https://arxiv.org/abs/2107.10833)|
 | ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/FAIG_teaser.jpg) | FAIG-teaser | <https://github.com/xinntao/HandyFigure/releases/download/PPT-source/FAIG_teaser.pptx> | [Paper](https://openreview.net/pdf?id=az0BBDjDvwD)|
+| ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/FAIG_motivation.png) | FAIG-motivation | <https://github.com/xinntao/HandyFigure/releases/download/PPT-source/FAIG_motivation.pptx> | [Paper](https://openreview.net/pdf?id=az0BBDjDvwD)|
+| ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/FAIG_compare.jpg) | FAIG-compare | <https://github.com/xinntao/HandyFigure/releases/download/PPT-source/FAIG_compare.pptx> | [Paper](https://openreview.net/pdf?id=az0BBDjDvwD)|
 <!-- TBR -->
 
 ## :scroll: License and Acknowledgement

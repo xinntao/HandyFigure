@@ -54,3 +54,13 @@ figures:
     # url_src: https://share.weiyun.com/wycZL7U6
     url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/FAIG_teaser.pptx
     url_project: https://github.com/TencentARC/FAIG
+  - title: FAIG-motivation
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/FAIG_motivation.png
+    url_paper: https://openreview.net/pdf?id=az0BBDjDvwD
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/FAIG_motivation.pptx
+    url_project: https://github.com/TencentARC/FAIG
+  - title: FAIG-compare
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/FAIG_compare.jpg
+    url_paper: https://openreview.net/pdf?id=az0BBDjDvwD
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/FAIG_compare.pptx
+    url_project: https://github.com/TencentARC/FAIG
