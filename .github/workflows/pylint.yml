@@ -25,5 +25,5 @@ jobs:
     - name: Lint
       run: |
         flake8 .
-        isort --check-only --diff handyfigure/ setup.py
-        yapf -r -d handyfigure/ setup.py
+        isort --check-only --diff handyfigure/ process_data.py
+        yapf -r -d handyfigure/ process_data.py
