@@ -9,9 +9,15 @@
 
 ---
 
-HandyFigure
+HandyFigure provides the sources file (ususally PPT files) for paper figures. <br>
+HandyFigure 提供论文插图的源文件(通常是 PPT 源文件)
 
-## :sparkles: Features
+## :sparkles: Figures
+
+| Figure             |  Name | PPT Source| Paper |
+|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+|![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/template.png)| Template | <https://share.weiyun.com/OPd3fja1> | - |
+|![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/GFPGAN_overview.png)| GFPGAN-overview | <https://share.weiyun.com/Nh9MRPOM> | <https://arxiv.org/abs/2101.04061>|
 
 ## :scroll: License and Acknowledgement
 
