@@ -18,7 +18,7 @@ for entry in data:
         f'    "url_paper": "{url_paper}",\n '\
         f'    "url_src": "{url_src}",\n '\
         f'    "url_project": "{url_project}",\n '\
-         '},\n'
+        '},\n'
     file_js.write(data_string)
 
 file_js.write('];\n// repeat data for testing (uncomment the following line when depolying)\n'
