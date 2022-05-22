@@ -23,11 +23,12 @@ var waterFall = {
     },
 
     append: function(column) {
-        url_img = this.data[this.index]['url_img'];
-        url_paper = this.data[this.index]['url_paper'];
-        url_src = this.data[this.index]['url_src'];
-        url_project = this.data[this.index]['url_project'];
-        title = this.data[this.index]['title'];
+        crt_index = this.index_list[this.index]
+        url_img = this.data[crt_index]['url_img'];
+        url_paper = this.data[crt_index]['url_paper'];
+        url_src = this.data[crt_index]['url_src'];
+        url_project = this.data[crt_index]['url_project'];
+        title = this.data[crt_index]['title'];
 
         var e = document.createElement("div");
         e.className = "unit";
@@ -62,6 +63,15 @@ var waterFall = {
     create: function() {
         this.loadFinish = false;
         this.index = 0;
+        keep_num = 2;  // keep first N figures fixed
+        index_list = [...Array(this.data.length).keys()];
+        for (j=0;j<keep_num;j++){
+            index_list.shift()
+        }
+        this.index_list = this.shuffleArray(index_list);
+        for (j=keep_num-1;j>=0;j--){
+            this.index_list.unshift(j)
+        }
         this.columnNumber = Math.floor(document.body.clientWidth / this.columnWidth);
 
         var i = 0, html = ''
@@ -77,6 +87,17 @@ var waterFall = {
             this.appendByColumn();
         }
         return this;
+    },
+
+    /* Randomize array in-place using Durstenfeld shuffle algorithm */
+    shuffleArray: function(array) {
+        for (var i = array.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+        }
+        return array;
     },
 
     scroll: function() {
