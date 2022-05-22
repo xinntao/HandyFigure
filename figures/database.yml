@@ -1,13 +1,56 @@
 # database to store all figure information
 figures:
   - title: Template
-    url_img: 'https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/template.png'
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/template.png
     url_paper: ~
-    url_src: https://share.weiyun.com/Kbje7Nr6
+    # url_src: https://share.weiyun.com/v1odzL0k
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/template.pptx
+    url_project: ~
+  - title: basic-neurons
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/basic_neurons.png
+    url_paper: ~
+    # url_src: https://share.weiyun.com/auh4XsFH
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/basic_neurons.pptx
     url_project: ~
   - title: GFPGAN-overvie
-    url_img: 'https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/GFPGAN_overview.png'
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/GFPGAN_overview.png
     url_paper: https://arxiv.org/abs/2101.04061
-    url_src: https://share.weiyun.com/g2GHvp4n
+    # url_src: https://share.weiyun.com/auh4XsFH
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/GFPGAN_overview.pptx
     url_project: https://github.com/TencentARC/GFPGAN
-
+  - title: GFPGAN-teaser
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/GFPGAN_teaser.jpg
+    url_paper: https://arxiv.org/abs/2101.04061
+    # url_src: https://share.weiyun.com/4r1KMeRr
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/GFPGAN_teaser.pptx
+    url_project: https://github.com/TencentARC/GFPGAN
+  - title: RealESRGAN-highorder
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/RealESRGAN_highorder.png
+    url_paper: https://arxiv.org/abs/2107.10833
+    # url_src: https://share.weiyun.com/OadwiOyB
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/RealESRGAN_highorder.pptx
+    url_project: https://github.com/xinntao/Real-ESRGAN
+  - title: RealESRGAN-teaser
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/RealESRGAN_teaser.jpg
+    url_paper: https://arxiv.org/abs/2107.10833
+    # url_src: https://share.weiyun.com/4r1KMeRr
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/RealESRGAN_teaser.pptx
+    url_project: https://github.com/xinntao/Real-ESRGAN
+  - title: RealESRGAN-network
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/RealESRGAN_network.jpg
+    url_paper: https://arxiv.org/abs/2107.10833
+    # url_src: https://share.weiyun.com/PWk5Lvjd
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/RealESRGAN_network.pptx
+    url_project: https://github.com/xinntao/Real-ESRGAN
+  - title: RealESRGAN-blur
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/RealESRGAN_blur.jpg
+    url_paper: https://arxiv.org/abs/2107.10833
+    # url_src: https://share.weiyun.com/LLBTT9vO
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/RealESRGAN_blur.pptx
+    url_project: https://github.com/xinntao/Real-ESRGAN
+  - title: FAIG-teaser
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/FAIG_teaser.jpg
+    url_paper: https://openreview.net/pdf?id=az0BBDjDvwD
+    # url_src: https://share.weiyun.com/wycZL7U6
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/FAIG_teaser.pptx
+    url_project: https://github.com/TencentARC/FAIG

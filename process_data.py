@@ -37,7 +37,7 @@ for line in ori_md:
     if flag_part1 is True:
         ori_md_part1.append(line)
 
-    if line == b'<!-- TBR -->\r\n':
+    if line == b'<!-- TBR -->\r\n' or line == b'<!-- TBR -->\n':
         if flag_part1 is True:
             flag_part1 = False
         else:

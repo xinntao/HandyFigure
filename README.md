@@ -18,7 +18,7 @@
     </a>
   </div>
 
-[![download](https://img.shields.io/github/downloads/xinntao/HandyFigure/total.svg)](https://github.com/xinntao/HandyFigure/releases/tag/PPT-source)
+[![download](https://img.shields.io/github/downloads/xinntao/HandyFigure/total)](https://github.com/xinntao/HandyFigure/releases/tag/PPT-source)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=xinntao/HandyFigure)
 
 <!-- [English](README.md) **|** [简体中文](README_CN.md) &emsp; [GitHub](https://github.com/xinntao/HandyFigure) **|** [Gitee码云](https://gitee.com/xinntao/HandyFigure) -->
@@ -38,8 +38,15 @@ HandyFigure 提供论文插图的源文件(通常是 PPT 源文件)
 <!-- TBR -->
 | Figure | Name | PPT Source| Paper |
 |:------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-| ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/template.png) | Template | <https://share.weiyun.com/Kbje7Nr6> | -|
-| ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/GFPGAN_overview.png) | GFPGAN-overvie | <https://share.weiyun.com/g2GHvp4n> | [Paper](https://arxiv.org/abs/2101.04061)|
+| ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/template.png) | Template | <https://github.com/xinntao/HandyFigure/releases/download/PPT-source/template.pptx> | -|
+| ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/basic_neurons.png) | basic-neurons | <https://github.com/xinntao/HandyFigure/releases/download/PPT-source/basic_neurons.pptx> | -|
+| ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/GFPGAN_overview.png) | GFPGAN-overvie | <https://github.com/xinntao/HandyFigure/releases/download/PPT-source/GFPGAN_overview.pptx> | [Paper](https://arxiv.org/abs/2101.04061)|
+| ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/GFPGAN_teaser.jpg) | GFPGAN-teaser | <https://github.com/xinntao/HandyFigure/releases/download/PPT-source/GFPGAN_teaser.pptx> | [Paper](https://arxiv.org/abs/2101.04061)|
+| ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/RealESRGAN_highorder.png) | RealESRGAN-highorder | <https://github.com/xinntao/HandyFigure/releases/download/PPT-source/RealESRGAN_highorder.pptx> | [Paper](https://arxiv.org/abs/2107.10833)|
+| ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/RealESRGAN_teaser.jpg) | RealESRGAN-teaser | <https://github.com/xinntao/HandyFigure/releases/download/PPT-source/RealESRGAN_teaser.pptx> | [Paper](https://arxiv.org/abs/2107.10833)|
+| ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/RealESRGAN_network.jpg) | RealESRGAN-network | <https://github.com/xinntao/HandyFigure/releases/download/PPT-source/RealESRGAN_network.pptx> | [Paper](https://arxiv.org/abs/2107.10833)|
+| ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/RealESRGAN_blur.jpg) | RealESRGAN-blur | <https://github.com/xinntao/HandyFigure/releases/download/PPT-source/RealESRGAN_blur.pptx> | [Paper](https://arxiv.org/abs/2107.10833)|
+| ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/FAIG_teaser.jpg) | FAIG-teaser | <https://github.com/xinntao/HandyFigure/releases/download/PPT-source/FAIG_teaser.pptx> | [Paper](https://openreview.net/pdf?id=az0BBDjDvwD)|
 <!-- TBR -->
 
 ## :scroll: License and Acknowledgement
