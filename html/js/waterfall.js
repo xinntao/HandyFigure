@@ -32,11 +32,24 @@ var waterFall = {
         var e = document.createElement("div");
         e.className = "unit";
         e.innerHTML = '<img src="'+ url_img +'" />'
-        e.innerHTML += '<a href="'+ url_project + '"><strong>'+ title +'</strong></a>';
-        e.innerHTML += '<table align="center" cellspacing="0" cellpadding="5"><tr>'
-                    + '<td><span class=" block-text"> <a href="'+ url_src +'">PPT Source</a></span></td>'
-                    + '<td><span class=" block-text"> <a href="'+ url_paper +'">Paper</a></span></td>'
+        if (url_paper != '#') {
+        e.innerHTML += '<a href="'+ url_project + '" target="_blank" ><strong>'+ title +'</strong></a>';}
+        else {
+            e.innerHTML += '<strong>'+ title +'</strong>';
+        }
+
+        if (url_paper != '#') {
+            e.innerHTML += '<table align="center" cellspacing="0" cellpadding="5"><tr>'
+                    + '<td><span class=" block-text"> <a href="'+ url_src +'" target="_blank">PPT Source</a></span></td>'
+                    + '<td><span class=" block-text"> <a href="'+ url_paper +'" target="_blank">Paper</a></span></td>'
                     + '</tr></table>';
+                }
+        else {
+            e.innerHTML += '<table align="center" cellspacing="0" cellpadding="5"><tr>'
+                    + '<td><span class=" block-text"> <a href="'+ url_src +'" target="_blank">PPT Source</a></span></td>'
+                    + '</tr></table>';
+        }
+
         column.appendChild(e);
 
         this.index += 1;
