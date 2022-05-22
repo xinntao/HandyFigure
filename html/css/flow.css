@@ -24,7 +24,7 @@ a:hover {
 }
 .navbar {
     border-bottom: 1px solid #ddd;
-    padding: 15px;
+    padding: 5px;
     font-size: 17px;
     line-height: 20px;
     overflow: hidden;
@@ -36,7 +36,7 @@ a:hover {
     margin-bottom: 20px;
 }
 .navbar a {
-    float: left;
+    /* float: left; */
     margin: 0 30px 0 0;
     padding: 2px 0 0 27px;
     text-transform: uppercase;
