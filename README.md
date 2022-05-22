@@ -11,14 +11,15 @@
     </a>
     &nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://xinntao.github.io/HandyFigure">
-    <b><font size="6">更多插图</font></b>
+    <b><font size="6">网页浏览更多插图</font></b>
     <sup>
         <i><font size="4">点我</font></i>
     </sup>
     </a>
   </div>
 
----
+[![download](https://img.shields.io/github/downloads/xinntao/HandyFigure/total.svg)](https://github.com/xinntao/HandyFigure/releases/tag/PPT-source)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=xinntao/HandyFigure)
 
 <!-- [English](README.md) **|** [简体中文](README_CN.md) &emsp; [GitHub](https://github.com/xinntao/HandyFigure) **|** [Gitee码云](https://gitee.com/xinntao/HandyFigure) -->
 
