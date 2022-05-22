@@ -1,6 +1,26 @@
-# ![icon](icon.png) HandyFigure
+<p align="center">
+  <img src="icon_text.png" height=100>
+</p>
 
-[English](README.md) **|** [简体中文](README_CN.md) &emsp; [GitHub](https://github.com/xinntao/HandyFigure) **|** [Gitee码云](https://gitee.com/xinntao/HandyFigure)
+<div align="center">
+    <a href="https://xinntao.github.io/HandyFigure">
+    <b><font size="6">More Figures in Web Demo</font></b>
+    <sup>
+        <i><font size="4">Click Me</font></i>
+    </sup>
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://xinntao.github.io/HandyFigure">
+    <b><font size="6">更多插图</font></b>
+    <sup>
+        <i><font size="4">点我</font></i>
+    </sup>
+    </a>
+  </div>
+
+---
+
+<!-- [English](README.md) **|** [简体中文](README_CN.md) &emsp; [GitHub](https://github.com/xinntao/HandyFigure) **|** [Gitee码云](https://gitee.com/xinntao/HandyFigure) -->
 
 ```Handy``` *Series*:
 
