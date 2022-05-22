@@ -21,9 +21,8 @@ for entry in data:
          '},\n'
     file_js.write(data_string)
 
-file_js.write(
-    '];\n// repeat data for testing (uncomment the following line when depolying)\n//while (data.length < 100) data = data.concat(data);\n'
-)
+file_js.write('];\n// repeat data for testing (uncomment the following line when depolying)\n'
+              '//while (data.length < 100) data = data.concat(data);\n')
 file_js.close()
 
 # update .md file for README.md
@@ -53,8 +52,7 @@ for line in ori_md_part1:
     file_md.write(line)
 file_md.write(b'| Figure | Name | PPT Source| Paper |\n')
 file_md.write(
-    b'|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|\n'
-)
+    b'|:------------------:|:-------------------------:|:-------------------------:|:-------------------------:|\n')
 for entry in data:
     title = entry['title']
     url_img = entry['url_img']
