@@ -14,10 +14,12 @@ HandyFigure 提供论文插图的源文件(通常是 PPT 源文件)
 
 ## :sparkles: Figures
 
-| Figure             |  Name | PPT Source| Paper |
+<!-- TBR -->
+| Figure | Name | PPT Source| Paper |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-|![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/template.png)| Template | <https://share.weiyun.com/OPd3fja1> | - |
-|![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/GFPGAN_overview.png)| GFPGAN-overview | <https://share.weiyun.com/Nh9MRPOM> | <https://arxiv.org/abs/2101.04061>|
+| ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/template.png) | Template | <https://share.weiyun.com/OPd3fja1> | -|
+| ![](https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/GFPGAN_overview.png) | GFPGAN-overvie | <https://share.weiyun.com/Nh9MRPOM> | [Paper](https://arxiv.org/abs/2101.04061)|
+<!-- TBR -->
 
 ## :scroll: License and Acknowledgement
 
