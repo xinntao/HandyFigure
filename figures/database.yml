@@ -69,3 +69,58 @@ figures:
     url_paper: https://arxiv.org/abs/2108.08826
     url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/Colorization.pptx
     url_project: ~
+  - title: DNI-teaser
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/DNI_teaser.jpg
+    url_paper: https://arxiv.org/abs/1811.10515
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/DNI_teaser.pptx
+    url_project: https://xinntao.github.io/projects/DNI
+  - title: EDVR-teaser
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/EDVR_teaser.jpg
+    url_paper: https://arxiv.org/abs/1905.02716
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/EDVR_teaser.pptx
+    url_project: https://xinntao.github.io/projects/EDVR
+  - title: EDVR-network
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/EDVR_network.jpg
+    url_paper: https://arxiv.org/abs/1905.02716
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/EDVR_network.pptx
+    url_project: https://xinntao.github.io/projects/EDVR
+  - title: EDVR-pcd-tsa
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/EDVR_pcd_tsa.png
+    url_paper: https://arxiv.org/abs/1905.02716
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/EDVR_pcd_tsa.pptx
+    url_project: https://xinntao.github.io/projects/EDVR
+  - title: EDVR-ablation
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/EDVR_ablation.jpg
+    url_paper: https://arxiv.org/abs/1905.02716
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/EDVR_ablation.pptx
+    url_project: https://xinntao.github.io/projects/EDVR
+  - title: ESRGAN-teaser
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/ESRGAN_teaser.jpg
+    url_paper: https://arxiv.org/abs/1809.00219
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/ESRGAN_teaser.pptx
+    url_project: https://github.com/xinntao/ESRGAN
+  - title: ESRGAN-network
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/ESRGAN_network.png
+    url_paper: https://arxiv.org/abs/1809.00219
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/ESRGAN_network.pptx
+    url_project: https://github.com/xinntao/ESRGAN
+  - title: SFTGAN-network
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/SFTGAN_network.jpg
+    url_paper: https://arxiv.org/abs/1804.02815
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/SFTGAN_network.pptx
+    url_project: http://mmlab.ie.cuhk.edu.hk/projects/SFTGAN/
+  - title: SFTGAN-modulation
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/SFTGAN_modulation.jpg
+    url_paper: https://arxiv.org/abs/1804.02815
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/SFTGAN_modulation.pptx
+    url_project: http://mmlab.ie.cuhk.edu.hk/projects/SFTGAN/
+  - title: UnderstandDCN-illustration
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/UnderstandDCN_illustration.png
+    url_paper: https://arxiv.org/abs/2009.07265
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/UnderstandDCN_illustration.pptx
+    url_project: ~
+  - title: UnderstandDCN-network
+    url_img: https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/UnderstandDCN_network.png
+    url_paper: https://arxiv.org/abs/2009.07265
+    url_src: https://github.com/xinntao/HandyFigure/releases/download/PPT-source/UnderstandDCN_network.pptx
+    url_project: ~
