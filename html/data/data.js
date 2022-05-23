@@ -134,7 +134,7 @@ var data = [
 },
 {
     "title": "SFTGAN-network",
-    "url_img": "https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/SFTGAN_network.jpg",
+    "url_img": "https://raw.githubusercontent.com/xinntao/HandyFigure/master/figures/SFTGAN_network.png",
     "url_paper": "https://arxiv.org/abs/1804.02815",
     "url_src": "https://github.com/xinntao/HandyFigure/releases/download/PPT-source/SFTGAN_network.pptx",
     "url_project": "http://mmlab.ie.cuhk.edu.hk/projects/SFTGAN/",
